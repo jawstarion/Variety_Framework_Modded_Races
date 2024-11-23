@@ -4,7 +4,7 @@
 	<region id="CharacterVisualBank">
 		<node id="CharacterVisualBank">
 			<children>
-				<node id="Resource">
+				<node id="Resource"> Female Fallen
 					<attribute id="BaseVisual" type="FixedString" value="4b8ff439-0a98-6e6c-ad48-c695c1c29b27" />
 					<attribute id="BodySetVisual" type="FixedString" value="d292152e-2dd9-4bde-b396-03f51706dcef" /> Fallen F
 					<attribute id="ID" type="FixedString" value="318ac472-22a0-4ad1-a053-6b0d143f2284" />
