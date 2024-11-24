@@ -5,7 +5,7 @@
 		<node id="MaterialBank">
 			<children>
 			<!-- AASIMAR -->
-				<!-- Fallen Aasimar Start -->
+				<!-- Aasimar Fallen Start -->
 				<node id="Resource"> Aasimar Fallen Female
 				<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
 				<attribute id="ID" type="FixedString" value="06c22db0-243c-468c-ae0e-3570495d376a" />
@@ -537,8 +537,9 @@
 							<attribute id="Value" type="fvec4" value="1 0 0 0" />
 						</node>
 					</children>
-				</node>       
-				<!-- Harbinger Aasimar Start -->
+				</node>      
+				<!-- Aasimar Fallen End -->
+				<!-- Aasimar Harbinger Start -->
 				<node id="Resource"> Aasimar Harbinger Female
 				<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
 				<attribute id="ID" type="FixedString" value="098c78bf-1ac3-42e1-bd45-8b146526e3cc" />
@@ -1071,6 +1072,8 @@
 						</node>
 					</children>
 				</node>
+				<!-- Aasimar Harbionger End-->
+				<!-- Aasimar Protector Start -->
 				<node id="Resource"> Aasimar Protector Female
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
 					<attribute id="ID" type="FixedString" value="d10674dc-f244-41be-9b7d-65137bca0317" />
@@ -1602,7 +1605,8 @@
 								<attribute id="Value" type="fvec4" value="1 0 0 0" />
 							</node>
 						</children>
-					</node>  				   
+				</node>  				   
+				<!-- Aasimar Protector End-->
 			</children>
 		</node>
 	</region>
@@ -1695,6 +1699,7 @@
 					<attribute id="Template" type="FixedString" value="" />
 					<attribute id="Type" type="int32" value="1" />
 				</node>
+				<!-- Aasimar Fallen End -->
 				<!-- Aasimar Harbinger Start -->
 				<node id="Resource"> Aasimar Harbinger F MSK 
 					<attribute id="Name" type="LSString" value="VARIETY_F_AasimarHarbinger_MSK" /> 
@@ -1780,6 +1785,8 @@
 					<attribute id="Template" type="FixedString" value="" />
 					<attribute id="Type" type="int32" value="1" />
 				</node>
+				<!-- Aasimar Harbinger End -->
+				<!-- Aasimar Protector Start -->
 				<node id="Resource"> Aasimar Protector F MSK 
 					<attribute id="Name" type="LSString" value="VARIETY_F_AasimarProtector_MSK" /> 
 					<attribute id="ID" type="FixedString" value="a111c70a-99ae-46a9-881d-dd3c12e4d7e1" /> 
@@ -1864,6 +1871,7 @@
 					<attribute id="Template" type="FixedString" value="" />
 					<attribute id="Type" type="int32" value="1" />
 				</node>
+				<!-- Aasimar Protector End -->
 			</children>
 		</node>
 	</region>
@@ -1905,6 +1913,8 @@
 						</node>
 					</children>
 				</node>
+				<!-- Aasimar Fallen End -->
+				<!-- Aasimar Harbinger Start -->
 				<node id="Resource"> Aasimar Harbinger F
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
@@ -1938,6 +1948,8 @@
 						</node>
 					</children>
 				</node>
+				<!-- Aasimar Harbinger End -->
+				<!-- Aasimar Protector Start -->
 				<node id="Resource"> Aasimar Protector F
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
@@ -1971,6 +1983,7 @@
 						</node>
 					</children>
 				</node>
+				<!-- Aasimar Protector End -->
             </children>
         </node>
     </region>
